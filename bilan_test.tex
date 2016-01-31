@@ -164,7 +164,15 @@
       \subsubsection{Tests d'acceptation}
       \begin{frame}
         \frametitle{Tests d'acceptation}
-        % TODO faire la recette ?
+        \begin{block}{Pour quoi faire ?}
+          Pour s'assurer du comportement attendu de l'application. Il faut pour cela comparer le comportement de l'application livrée à ce qui est indiqué dans Squash TM, notamment dans les cas de tests.
+        \end{block}
+        \begin{block}{Couverture}
+          Toutes les fonctionnalités développées sont testées, à l'exception de :
+          \begin{itemize}
+            \item La taille du nom des modules lors d'un ajout de module par l'administrateur
+          \end{itemize}
+        \end{block}
       \end{frame}
       
       \subsubsection{Tests d'intégration}
@@ -174,11 +182,11 @@
           Pour s'assurer du bon comportement de l'application en général.
           \begin{itemize}
             \item Est-ce qu'un utilisateur qui a ce statut peut accéder à toutes les pages ?
-            \item Que se passe-t'il lorsqu'on remplit ce formulaire avec ces données ?
             \item Est-ce que l'icône des notifications apparaît après s'être connecté ?
+            \item Est-ce que lorsqu'on ajoute un utilisateur, il s'ajoute bien dans la liste des utilisateurs ?
             \item Etc
-          \end{itemize}           
-        \end{block}      
+          \end{itemize}
+        \end{block}
       \end{frame}
       \begin{frame}
         \frametitle{Tests d'intégration}
